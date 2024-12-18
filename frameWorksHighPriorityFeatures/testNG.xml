@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SO(High Priority Test Cases) ">
+  <test thread-count="5" name="Testng XML">
+	<parameter name="Browser" value="Chrome" />
+    <classes>
+			<class name="customerPaymentTests.AmountAllocation"/>
+			<class name="customerPaymentTests.AddNewIconAndPaymentVerification"/>
+			<class name="customerPaymentTests.ActionsIconNewAndTendering"/>
+			<class name="customerPaymentTests.CustomerPaymentSearchFields"/>
+    </classes>>
+  </test> <!-- Testng XML -->
+</suite> <!-- POS  -->
